@@ -3042,8 +3042,8 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
 			-ms-flex: 1;
+			width: 50em;
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3732,7 +3732,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: white/*LETTERS IN SIDEBAR*/;
+			color: gray/*LETTERS IN SIDEBAR*/;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3759,11 +3759,11 @@ input, select, textarea {
 				background: maroon;/*CHANGE UNDERTONE BEFORE*/
 			}
 
-			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+			#sidebar nav a:after { /*MODIFIES UNDERLINE WITHING SIDEBAR*/
+				background-image: -moz-linear-gradient(to right, red, orange);
+				background-image: -webkit-linear-gradient(to right, red, orange);
+				background-image: -ms-linear-gradient(to right, red, orange);
+				background-image: linear-gradient(to right, red, orange);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3772,11 +3772,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: maroon;/*HOVER LETTER BEFORE*/;
+				color: maroon;/*HOVER LETTER BEFORE*/
 			}
 
 			#sidebar nav a.active {
-				color: rgb(9, 9, 161);/*LETTER AFTER CLICK*/;
+				color: orange;/*LETTER AFTER CLICK*/
 			}
 
 				#sidebar nav a.active:after {
@@ -3852,7 +3852,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: rgb(9, 9, 161);/*UNDERTONE FOR CLICKED*/;
+							background-color: rgb(9, 9, 161); /*UNDERTONE FOR CLICKED*/
 						}
 
 		}

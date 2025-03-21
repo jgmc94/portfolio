@@ -1,0 +1,178 @@
+* {
+    max-width: 850px;
+    margin: auto;
+  }
+  
+  
+  body {
+		background-image: linear-gradient(to right, white, rgb(238, 233, 233));
+  }
+  
+  /*div {
+    border-radius: 5px;
+  }*/
+
+  hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(73, 169, 247);
+  }
+
+  h1 {
+    color: rgb(73, 169, 247);
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(73, 169, 247);
+    position: fixed;
+    z-index: 1;
+  }
+  /*
+  #title {
+    margin-left: 3%;
+  }*/
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(73, 169, 247);
+    clear: both;
+    position: relative;
+    display: flex;
+    justify-content: center;  /* Centers the button horizontally */
+    align-items: center;      /* Centers the button vertically */
+  }
+  
+  .left {
+    height: 2000px;
+    width: 2px;
+    background-color: black;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 2000px;
+    width: 2px;
+    background-color: black;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    font-family: 'Tahoma';
+    font-size: 14px;
+  }
+  
+  .skills {
+    color: rgb(73, 169, 247);
+  }
+
+  .job {
+    color: rgb(73, 169, 247);
+  }
+
+  .course {
+    font-size: 12px;
+  }
+  
+  #name {
+    font-family: Tahoma;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(73, 169, 247);
+  }
+  
+  button {		
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: border-color 0.2s ease;
+    -webkit-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+    background-color: transparent;
+    border: solid 2px !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.15) !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 4em;
+    outline: 0;
+    padding: 1.5 1.5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5em;
+    height: 5em;
+  }
+  
+  button:hover {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: border-color 0.2s ease;
+    -webkit-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+    background-color: transparent;
+    border: solid 2px !important;
+    border-color: white !important;
+    border-radius: 50%;
+    color: white !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 4em;
+    outline: 0;
+    padding: 1.5 1.5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5em;
+    height: 5em;
+	}
+
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
